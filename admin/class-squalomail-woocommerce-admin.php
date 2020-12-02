@@ -257,6 +257,10 @@ class SqualoMail_WooCommerce_Admin extends SqualoMail_WooCommerce_Options {
 	 * Displays notice when plugin is installed but not yet configured / connected to SqualoMail.
 	 */
 	public function initial_notice() {
+		if (has_filter('woocommerce_admin_disabled', '__return_true')) {
+			return null;
+		}
+
 		if (!squalomail_is_configured()) {
 			// If WC_Admin_Notes doesn't exist, show normal wordpress admin notice...
 			if ( ! class_exists( '\Automattic\WooCommerce\Admin\Notes\WC_Admin_Notes' ) ) {
