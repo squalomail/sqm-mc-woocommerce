@@ -231,16 +231,16 @@ else {
                     <div class="nav-tab-wrapper">
                         <?php if($has_valid_api_key): ?>
                             <?php if ($active_tab == 'api_key'): ?>
-                                <a href="?page=squalomail-woocommerce&tab=api_key" class="nav-tab <?php echo $active_tab == 'api_key' ? 'nav-tab-active' : ''; ?>"><?= esc_html_e('Connect', 'squalomail-for-woocommerce');?></a>
+                                <a href="?page=squalomail-woocommerce&tab=api_key" class="nav-tab <?php echo $active_tab == 'api_key' ? 'nav-tab-active' : ''; ?>"><?= esc_html__('Connect', 'squalomail-for-woocommerce');?></a>
                             <?php endif ;?>
-                            <a href="?page=squalomail-woocommerce&tab=sync" class="nav-tab <?php echo $active_tab == 'sync' ? 'nav-tab-active' : ''; ?>"><?= esc_html_e('Overview', 'squalomail-for-woocommerce');?></a>
-                            <a href="?page=squalomail-woocommerce&tab=store_info" class="nav-tab <?php echo $active_tab == 'store_info' ? 'nav-tab-active' : ''; ?>"><?= esc_html_e('Store', 'squalomail-for-woocommerce');?></a>
+                            <a href="?page=squalomail-woocommerce&tab=sync" class="nav-tab <?php echo $active_tab == 'sync' ? 'nav-tab-active' : ''; ?>"><?= esc_html__('Overview', 'squalomail-for-woocommerce');?></a>
+                            <a href="?page=squalomail-woocommerce&tab=store_info" class="nav-tab <?php echo $active_tab == 'store_info' ? 'nav-tab-active' : ''; ?>"><?= esc_html__('Store', 'squalomail-for-woocommerce');?></a>
                             <?php if ($handler->hasValidStoreInfo()) : ?>
                             
-                                    <a href="?page=squalomail-woocommerce&tab=newsletter_settings" class="nav-tab <?php echo $active_tab == 'newsletter_settings' ? 'nav-tab-active' : ''; ?>"><?= esc_html_e('Audience', 'squalomail-for-woocommerce');?></a>
+                                    <a href="?page=squalomail-woocommerce&tab=newsletter_settings" class="nav-tab <?php echo $active_tab == 'newsletter_settings' ? 'nav-tab-active' : ''; ?>"><?= esc_html__('Audience', 'squalomail-for-woocommerce');?></a>
                             <?php endif;?>
-                            <a href="?page=squalomail-woocommerce&tab=logs" class="nav-tab <?php echo $active_tab == 'logs' ? 'nav-tab-active' : ''; ?>"><?= esc_html_e('Logs', 'squalomail-for-woocommerce');?></a>
-                            <a href="?page=squalomail-woocommerce&tab=plugin_settings" class="nav-tab <?php echo $active_tab == 'plugin_settings' ? 'nav-tab-active' : ''; ?>"><?= esc_html_e('Settings', 'squalomail-for-woocommerce');?></a>
+                            <a href="?page=squalomail-woocommerce&tab=logs" class="nav-tab <?php echo $active_tab == 'logs' ? 'nav-tab-active' : ''; ?>"><?= esc_html__('Logs', 'squalomail-for-woocommerce');?></a>
+                            <a href="?page=squalomail-woocommerce&tab=plugin_settings" class="nav-tab <?php echo $active_tab == 'plugin_settings' ? 'nav-tab-active' : ''; ?>"><?= esc_html__('Settings', 'squalomail-for-woocommerce');?></a>
                         <?php endif; ?>
                     </div>
                 </div>
