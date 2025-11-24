@@ -97,9 +97,9 @@ if (($squalomail_api = squalomail_get_api()) && ($store = $squalomail_api->getSt
                 <strong><?php esc_html_e('Sync Status:', 'squalomail-for-woocommerce');?></strong>
                 <?php if ($last_updated_time): ?>
                     <?php if(squalomail_is_done_syncing()) : ?>
-                        <?= esc_html_e('Completed', 'squalomail-for-woocommerce') ?>
+                        <?= esc_html__('Completed', 'squalomail-for-woocommerce') ?>
                     <?php else : ?>
-                        <?= esc_html_e('Running', 'squalomail-for-woocommerce'); ?>
+                        <?= esc_html__('Running', 'squalomail-for-woocommerce'); ?>
                         <img class="sync-loader" src="<?php echo plugin_dir_url( __FILE__ ) . "images/3dotpurple.gif"; ?>"/>
                     <?php endif;?>        
                 <?php elseif ($sync_started_at && !$sync_completed_at): ?>
