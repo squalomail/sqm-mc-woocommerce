@@ -13,7 +13,7 @@ class SqualoMail_WooCommerce_Rest_Api
         return esc_url_raw(rest_url(static::$namespace.'/'.ltrim($path, '/')));
     }
     /**
-     * Register all Squalomail API routes.
+     * Register all Squalo API routes.
      */
     public function register_routes()
     {

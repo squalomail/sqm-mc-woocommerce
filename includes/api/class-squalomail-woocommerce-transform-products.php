@@ -336,7 +336,7 @@ class SqualoMail_WooCommerce_Transform_Products
 
         $title = $item->get_name();
 
-        // only do this if we haven't pushed this product ID up yet to Squalomail
+        // only do this if we haven't pushed this product ID up yet to Squalo
         if (!($product = $api->getStoreProduct($store_id, "deleted_{$id}"))) {
             $product = new SqualoMail_WooCommerce_Product();
 

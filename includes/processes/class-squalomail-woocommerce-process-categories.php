@@ -32,7 +32,7 @@ class SqualoMail_WooCommerce_Process_Categories extends SqualoMail_WooCommerce_A
     }
 
     /**
-     * Called after all the categories have been iterated and processed into SqualoMail
+     * Called after all the categories have been iterated and processed into Squalo
      */
     protected function complete()
     {

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Created by SqualoMail.
+ * Created by Squalo.
  *
  * Name: Ryan Hungate
  * Email: ryan@vextras.com

@@ -1,8 +1,8 @@
-# Copyright (C) 2020 Squalomail
-# This file is distributed under the same license as the Squalomail for WooCommerce plugin.
+# Copyright (C) 2020 Squalo
+# This file is distributed under the same license as the Squalo for WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Squalomail for WooCommerce 2.5.0\n"
+"Project-Id-Version: Squalo for WooCommerce 2.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/squalomail-for-woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: admin/class-squalomail-woocommerce-admin.php:174
 #: admin/class-squalomail-woocommerce-admin.php:191
-msgid "Squalomail for WooCommerce"
+msgid "Squalo for WooCommerce"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -25,12 +25,12 @@ msgid "https://squalomail.com/connect-your-store/"
 msgstr ""
 
 #. Description of the plugin
-msgid "Connects WooCommerce to Squalomail to sync your store data, send targeted campaigns to your customers, and sell more stuff."
+msgid "Connects WooCommerce to Squalo to sync your store data, send targeted campaigns to your customers, and sell more stuff."
 msgstr ""
 
 #. Author of the plugin
 #: admin/class-squalomail-woocommerce-admin.php:175
-msgid "Squalomail"
+msgid "Squalo"
 msgstr ""
 
 #. Author URI of the plugin
@@ -66,7 +66,7 @@ msgid "I'm trying to troubleshoot the integration."
 msgstr ""
 
 #: includes/class-squalomail-woocommerce-deactivation-survey.php:347
-msgid "I was instructed to disconnect by Squalomail Support."
+msgid "I was instructed to disconnect by Squalo Support."
 msgstr ""
 
 #: includes/class-squalomail-woocommerce-deactivation-survey.php:351
@@ -100,7 +100,7 @@ msgstr ""
 
 #: includes/class-squalomail-woocommerce-deactivation-survey.php:379
 #: admin/class-squalomail-woocommerce-admin.php:434
-msgid "Squalomail for Woocommerce"
+msgid "Squalo for Woocommerce"
 msgstr ""
 
 #: includes/class-squalomail-woocommerce-deactivation-survey.php:398
@@ -111,13 +111,13 @@ msgstr ""
 msgid "Skip & Deactivate"
 msgstr ""
 
-#. translators: %s - Squalomail Privacy Policy URL.
+#. translators: %s - Squalo Privacy Policy URL.
 #: includes/class-squalomail-woocommerce-privacy.php:12
 msgid "When shopping, we keep a record of your email and the cart contents for up to 30 days on our server. This record is kept to repopulate the contents of your cart if you switch devices or needed to come back another day. Read our privacy policy <a href=\"%s\">here</a>."
 msgstr ""
 
 #: includes/class-squalomail-woocommerce-privacy.php:78
-msgid "SqualoMail Shopping Cart Data"
+msgid "Squalo Shopping Cart Data"
 msgstr ""
 
 #: includes/class-squalomail-woocommerce-privacy.php:82
@@ -161,7 +161,7 @@ msgid "Please wait"
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:144
-msgid "You are about to disconnect your store from Squalomail."
+msgid "You are about to disconnect your store from Squalo."
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:145
@@ -210,15 +210,15 @@ msgstr ""
 
 #. translators: Placeholders %1$s - opening strong HTML tag, %2$s - closing strong HTML tag, %3$s - opening link HTML tag, %4$s - closing link HTML tag
 #: admin/class-squalomail-woocommerce-admin.php:282
-msgid "%1$sSqualomail for Woocommerce%2$s is not yet connected to a Squalomail account. To complete the connection, %3$svisit the plugin settings page%4$s."
+msgid "%1$sSqualo for Woocommerce%2$s is not yet connected to a Squalo account. To complete the connection, %3$svisit the plugin settings page%4$s."
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:315
-msgid "Squalomail For WooCommerce"
+msgid "Squalo For WooCommerce"
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:317
-msgid "Plugin is not yet connected to a Squalomail account. To complete the connection, open the settings page."
+msgid "Plugin is not yet connected to a Squalo account. To complete the connection, open the settings page."
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:334
@@ -230,7 +230,7 @@ msgid "We dectected that this site has the following constants defined, likely a
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:437
-msgid "These constants are deprecated since Squalomail for Woocommerce version 2.3. Please refer to the <a href=\"https://github.com/squalomail/sqm-woocommerce/wiki/\">plugin official wiki</a> for further details."
+msgid "These constants are deprecated since Squalo for Woocommerce version 2.3. Please refer to the <a href=\"https://github.com/squalomail/sqm-woocommerce/wiki/\">plugin official wiki</a> for further details."
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:647
@@ -244,19 +244,19 @@ msgstr ""
 #: admin/class-squalomail-woocommerce-admin.php:937
 #: admin/class-squalomail-woocommerce-admin.php:1123
 #: admin/class-squalomail-woocommerce-admin.php:1685
-msgid "Cannot create or update Store at Squalomail."
+msgid "Cannot create or update Store at Squalo."
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:1031
-msgid "As part of the Squalomail Terms of Use, we require a contact email and a physical mailing address."
+msgid "As part of the Squalo Terms of Use, we require a contact email and a physical mailing address."
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:1039
-msgid "As part of the Squalomail Terms of Use, we require a valid phone number for your store."
+msgid "As part of the Squalo Terms of Use, we require a valid phone number for your store."
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:1047
-msgid "Squalomail for WooCommerce requires a Store Name to connect your store."
+msgid "Squalo for WooCommerce requires a Store Name to connect your store."
 msgstr ""
 
 #. translators: %s - plugin name.
@@ -271,11 +271,11 @@ msgid "One or more fields were not updated"
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:1213
-msgid "You must supply your Squalomail API key to pull the audiences."
+msgid "You must supply your Squalo API key to pull the audiences."
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:1482
-msgid "Cannot create or update List at Squalomail."
+msgid "Cannot create or update List at Squalo."
 msgstr ""
 
 #: admin/class-squalomail-woocommerce-admin.php:1482
@@ -454,7 +454,7 @@ msgid "Tags"
 msgstr ""
 
 #: admin/partials/tabs/newsletter_settings.php:235
-msgid "Add a comma-separated list of tags to apply to a subscriber in Squalomail after a transaction occurs"
+msgid "Add a comma-separated list of tags to apply to a subscriber in Squalo after a transaction occurs"
 msgstr ""
 
 #: admin/partials/tabs/newsletter_settings.php:244
@@ -478,7 +478,7 @@ msgstr ""
 msgid ""
 "Advanced troubleshooting can be conducted with the logging capability turned on.\n"
 "            By default, it’s set to “standard” and you may toggle to either “debug” or “none” as needed.\n"
-"            With standard logging, you can see basic information about the data submission to Squalomail including any errors.\n"
+"            With standard logging, you can see basic information about the data submission to Squalo including any errors.\n"
 "            “Debug” gives a much deeper insight that is useful to share with support if problems arise."
 msgstr ""
 
@@ -507,23 +507,23 @@ msgid "Delete Log"
 msgstr ""
 
 #: admin/partials/tabs/notices.php:6
-msgid "Squalomail says: You must enter in a valid API key."
+msgid "Squalo says: You must enter in a valid API key."
 msgstr ""
 
 #: admin/partials/tabs/notices.php:9
-msgid "Squalomail says: You must select a marketing audience."
+msgid "Squalo says: You must select a marketing audience."
 msgstr ""
 
 #: admin/partials/tabs/notices.php:12
-msgid "Squalomail says: Sorry you must set up your store before you proceed!"
+msgid "Squalo says: Sorry you must set up your store before you proceed!"
 msgstr ""
 
 #: admin/partials/tabs/notices.php:15
-msgid "Squalomail says: You are not fully ready to run the Store Sync, please verify your settings before proceeding."
+msgid "Squalo says: You are not fully ready to run the Store Sync, please verify your settings before proceeding."
 msgstr ""
 
 #: admin/partials/tabs/notices.php:29
-msgid "Squalomail says: Your re-sync has been started!"
+msgid "Squalo says: Your re-sync has been started!"
 msgstr ""
 
 #: admin/partials/tabs/store_sync.php:78
@@ -601,14 +601,14 @@ msgstr ""
 msgid "Order and customer information will not sync if they contain an Amazon or generic email address."
 msgstr ""
 
-#. translators: Placeholders %1$s - Squalomail Support URL, %2$s - link element id, %3$s - popup element id
+#. translators: Placeholders %1$s - Squalo Support URL, %2$s - link element id, %3$s - popup element id
 #: admin/partials/tabs/store_sync.php:188
-msgid "Need help? Visit <a href=%1$s target=_blank>Squalomail support</a> or <a id=%2$s href=%3$s>send us an email.</a> "
+msgid "Need help? Visit <a href=%1$s target=_blank>Squalo support</a> or <a id=%2$s href=%3$s>send us an email.</a> "
 msgstr ""
 
-#. translators: %s - Squalomail Privacy Policy URL.
+#. translators: %s - Squalo Privacy Policy URL.
 #: admin/partials/tabs/store_sync.php:189
-msgid "By using this plugin, Squalomail will process customer information in accordance with their <a href=%s target=_blank>Privacy Policy</a>."
+msgid "By using this plugin, Squalo will process customer information in accordance with their <a href=%s target=_blank>Privacy Policy</a>."
 msgstr ""
 
 #: admin/partials/tabs/store_sync.php:195
@@ -710,11 +710,11 @@ msgid "Disconnect Store"
 msgstr ""
 
 #: admin/partials/tabs/plugin_settings.php:49
-msgid "Disconnect your store from SqualoMail. This action will remove all entries from the database but you will be able to reconnect anytime."
+msgid "Disconnect your store from Squalo. This action will remove all entries from the database but you will be able to reconnect anytime."
 msgstr ""
 
 #: admin/partials/tabs/api_key.php:5
-msgid "Connect your store to Squalomail"
+msgid "Connect your store to Squalo"
 msgstr ""
 
 #: admin/partials/tabs/api_key.php:7
@@ -726,11 +726,11 @@ msgid "Connect account"
 msgstr ""
 
 #: admin/partials/tabs/api_key.php:13
-msgid "Already connected. You can reconnect with another Squalomail account if you want."
+msgid "Already connected. You can reconnect with another Squalo account if you want."
 msgstr ""
 
 #: admin/partials/tabs/api_key.php:15
-msgid "Connecting. A new window will open with Squalomail's OAuth service. Please log-in and we will take care of the rest."
+msgid "Connecting. A new window will open with Squalo's OAuth service. Please log-in and we will take care of the rest."
 msgstr ""
 
 #: admin/partials/tabs/api_key.php:16
@@ -792,9 +792,9 @@ msgstr ""
 msgid "Timezone"
 msgstr ""
 
-#. translators: %s - Squalomail legal pages
+#. translators: %s - Squalo legal pages
 #: admin/partials/tabs/api_key.php:182
-msgid "By clicking the \"Get Started!\" button, you are creating a Squalomail account, and you agree to Squalomail's <a href=%1$s target=_blank>Terms of Use</a> and <a href=%2$s target=_blank>Privacy Policy</a>."
+msgid "By clicking the \"Get Started!\" button, you are creating a Squalo account, and you agree to Squalo's <a href=%1$s target=_blank>Terms of Use</a> and <a href=%2$s target=_blank>Privacy Policy</a>."
 msgstr ""
 
 #: admin/partials/tabs/api_key.php:188
@@ -887,7 +887,7 @@ msgid "Plugin Permission Level"
 msgstr ""
 
 #: admin/partials/tabs/store_info.php:163
-msgid "Select the minimum permission capability to manage Squalomail for Woocommerce options"
+msgid "Select the minimum permission capability to manage Squalo for Woocommerce options"
 msgstr ""
 
 #: admin/partials/tabs/store_info.php:170
@@ -899,11 +899,11 @@ msgid "Shop Managers and Administrators"
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:92
-msgid "Add Squalomail for WooCommerce"
+msgid "Add Squalo for WooCommerce"
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:93
-msgid "Build custom segments, send automations, and track purchase <br/>activity in Squalomail. Login to authorize an account connection."
+msgid "Build custom segments, send automations, and track purchase <br/>activity in Squalo. Login to authorize an account connection."
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:98
@@ -940,7 +940,7 @@ msgid "Start sync"
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:167
-msgid "Add Squalomail for WooCommerce to build custom segments, send automations, and track purchase activity in Squalomail"
+msgid "Add Squalo for WooCommerce to build custom segments, send automations, and track purchase activity in Squalo"
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:172
@@ -968,15 +968,15 @@ msgid "If you don’t have an audience, you can choose to create one"
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:193
-msgid "Success! You are connected to Squalomail"
+msgid "Success! You are connected to Squalo"
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:196
-msgid "Your WooCommerce store is syncing to Squalomail"
+msgid "Your WooCommerce store is syncing to Squalo"
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:204
-msgid "Log events from the Squalomail plugin"
+msgid "Log events from the Squalo plugin"
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:208
@@ -1008,11 +1008,11 @@ msgid "Settings"
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:243
-msgid "Squalomail says: Please upgrade your PHP version to a minimum of 7.0"
+msgid "Squalo says: Please upgrade your PHP version to a minimum of 7.0"
 msgstr ""
 
 #: admin/partials/squalomail-woocommerce-admin-tabs.php:249
-msgid "Squalomail says: API Request Error - "
+msgid "Squalo says: API Request Error - "
 msgstr ""
 
 #: bootstrap.php:240

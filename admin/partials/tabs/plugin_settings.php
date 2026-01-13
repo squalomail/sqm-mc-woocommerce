@@ -46,7 +46,7 @@ $comm_enabled = $opt != null ? $opt : '0';
 			<p>
 				<?= 
 				sprintf(
-					__('Disconnect your store from SqualoMail. This action will remove all entries from the database but you will be able to reconnect anytime.', 'squalomail-for-woocommerce'),
+					__('Disconnect your store from Squalo. This action will remove all entries from the database but you will be able to reconnect anytime.', 'squalomail-for-woocommerce'),
 					$admin_email
 				);?>
 			</p>

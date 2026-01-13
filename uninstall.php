@@ -42,7 +42,7 @@ function squalomail_woocommerce_uninstall() {
                 if (!empty($store_id)) {
                     $api = new SqualoMail_WooCommerce_SqualoMailApi($options['squalomail_api_key']);
                     $result = $api->deleteStore($store_id) ? 'has been deleted' : 'did not delete';
-                    error_log("store id {$store_id} {$result} SqualoMail");
+                    error_log("store id {$store_id} {$result} Squalo");
                 }
             }
         }

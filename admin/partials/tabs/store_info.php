@@ -160,7 +160,7 @@ if (!$handler->hasValidApiKey()) {
             <div class="box box-half margin-large">
                 <label>
                     <h4><?php esc_html_e('Plugin Permission Level', 'squalomail-for-woocommerce');?></h4>
-                    <p><?php _e('Select the minimum permission capability to manage Squalomail for Woocommerce options', 'squalomail-for-woocommerce');?> </p>
+                    <p><?php _e('Select the minimum permission capability to manage Squalo for Woocommerce options', 'squalomail-for-woocommerce');?> </p>
                 </label>
             </div>
 

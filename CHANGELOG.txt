@@ -1,4 +1,7 @@
 == Changelog ==
+= 2.5.4 =
+* renamed Squalomail to Squalo throughout plugin
+* updated readme and documentation links
 = 2.5.1 =
 * tested for woocommerce v5.1
 * tested for wordpress v5.7

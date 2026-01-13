@@ -41,7 +41,7 @@ class SqualoMail_WooCommerce_SingleCoupon extends Squalomail_Woocommerce_Job
         try {
 
             if (!squalomail_is_configured()) {
-                squalomail_debug(get_called_class(), 'Squalomail is not configured properly');
+                squalomail_debug(get_called_class(), 'Squalo is not configured properly');
                 return false;
             }
 

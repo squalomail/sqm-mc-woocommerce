@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Manage Squalomail for Woocommerce syncronization jobs.
+ * Manage Squalo for Woocommerce syncronization jobs.
  *
  * @package wp-cli
  */
@@ -78,7 +78,7 @@ class Squalomail_Wocoomerce_CLI extends WP_CLI_Command {
      */
 	public function listen( $args, $assoc_args = array() ) {
         squalomail_debug('cli.queue.listen.process','Starting command `action-scheduler run`'); 
-        WP_CLI::warning(WP_CLI::colorize('%Wqueue listen%n').' command is deprecated since Squalomail for Woocommerce version 2.3. Please use '.WP_CLI::colorize('%ywp action-scheduler run --group="sqm-woocommerce%n"').' instead'); 
+        WP_CLI::warning(WP_CLI::colorize('%Wqueue listen%n').' command is deprecated since Squalo for Woocommerce version 2.3. Please use '.WP_CLI::colorize('%ywp action-scheduler run --group="sqm-woocommerce%n"').' instead');
         WP_CLI::log('Starting sync'); 
         
         $force_arg = '';
@@ -105,17 +105,17 @@ class Squalomail_Wocoomerce_CLI extends WP_CLI_Command {
 	 * Deprecated commands
 	 */
 	public function work( $args, $assoc_args = array() ) {
-        WP_CLI::warning(WP_CLI::colorize('%Wqueue work%n').' command is deprecated since Squalomail for Woocommerce version 2.3. Please use '.WP_CLI::colorize('%ywp action-scheduler run --group="sqm-woocommerce%n"').' instead'); 
+        WP_CLI::warning(WP_CLI::colorize('%Wqueue work%n').' command is deprecated since Squalo for Woocommerce version 2.3. Please use '.WP_CLI::colorize('%ywp action-scheduler run --group="sqm-woocommerce%n"').' instead');
         exit;
     }
     
 	public function status( $args, $assoc_args = array() ) {
-        WP_CLI::warning(WP_CLI::colorize('%Wqueue status%n').' command is deprecated since Squalomail for Woocommerce version 2.3.'); 
+        WP_CLI::warning(WP_CLI::colorize('%Wqueue status%n').' command is deprecated since Squalo for Woocommerce version 2.3.');
         exit;
     }
     
 	public function restart_failed( $args, $assoc_args = array() ) {
-		WP_CLI::warning(WP_CLI::colorize('%Wqueue restart_failed%n').' command is deprecated since Squalomail for Woocommerce version 2.3.'); 
+		WP_CLI::warning(WP_CLI::colorize('%Wqueue restart_failed%n').' command is deprecated since Squalo for Woocommerce version 2.3.');
         exit;
     }
 }

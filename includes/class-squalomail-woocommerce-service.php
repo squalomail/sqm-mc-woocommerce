@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Created by SqualoMail.
+ * Created by Squalo.
  *
  * Name: Ryan Hungate
  * Email: ryan@vextras.com
@@ -534,7 +534,7 @@ class SqualoMail_Service extends SqualoMail_WooCommerce_Options
     }
 
     /**
-     * Set the cookie of the Squalomail campaigns if we have one.
+     * Set the cookie of the Squalo campaigns if we have one.
      */
     public function handleCampaignTracking()
     {

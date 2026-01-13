@@ -232,7 +232,7 @@ $list_is_configured = isset($options['squalomail_list']) && (!empty($options['sq
         <div class="box box-half" >
             <label for="<?php echo $this->plugin_name; ?>-user-tags">
                 <h4><?php esc_html_e('Tags', 'squalomail-for-woocommerce');?></h4>
-                <p><?= __( 'Add a comma-separated list of tags to apply to a subscriber in Squalomail after a transaction occurs', 'squalomail-for-woocommerce' ); ?></p>
+                <p><?= __( 'Add a comma-separated list of tags to apply to a subscriber in Squalo after a transaction occurs', 'squalomail-for-woocommerce' ); ?></p>
             </label>
         </div>
 

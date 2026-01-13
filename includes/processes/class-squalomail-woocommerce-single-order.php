@@ -75,7 +75,7 @@ class SqualoMail_WooCommerce_Single_Order extends Squalomail_Woocommerce_Job
     public function process()
     {
         if (!squalomail_is_configured() || !($api = squalomail_get_api())) {
-            squalomail_debug(get_called_class(), 'Squalomail is not configured properly');
+            squalomail_debug(get_called_class(), 'Squalo is not configured properly');
             return false;
         }
 
@@ -137,7 +137,7 @@ class SqualoMail_WooCommerce_Single_Order extends Squalomail_Woocommerce_Job
             }
 
             // if the order is new, and has been flagged as a status that should not be pushed over to
-            // Squalomail - just ignore it and log it.
+            // Squalo - just ignore it and log it.
              if ($new_order && $order->shouldIgnoreIfNotInSqualomail()) {
                  squalomail_log('system.debug', "order {$order->getId()} is in {$order->getOriginalWooStatus()} status, and is being skipped for now.");
                  return false;
@@ -192,7 +192,7 @@ class SqualoMail_WooCommerce_Single_Order extends Squalomail_Woocommerce_Job
 
             // if the campaign ID is empty, and we have a cart session id
             if (empty($campaign_id) && !empty($this->cart_session_id)) {
-                // pull the cart info from Squalomail
+                // pull the cart info from Squalo
                 if (($abandoned_cart_record = $api->getCart($store_id, $this->cart_session_id))) {
                     // set the campaign ID
                     $order->setCampaignId($this->campaign_id = $abandoned_cart_record->getCampaignID());
@@ -273,7 +273,7 @@ class SqualoMail_WooCommerce_Single_Order extends Squalomail_Woocommerce_Job
                 if (empty($line_items) || !count($line_items)) {
                     
                     // this will create an empty product placeholder, or return the pre populated version if already
-                    // sent to Squalomail.
+                    // sent to Squalo.
                     $product = $api->createEmptyLineItemProductPlaceholder();
                     
                     $line_item = new SqualoMail_WooCommerce_LineItem();
@@ -313,7 +313,7 @@ class SqualoMail_WooCommerce_Single_Order extends Squalomail_Woocommerce_Job
             }
 
             if (empty($api_response)) {
-                squalomail_error('order_submit.failure', "$call :: #{$order->getId()} :: email: {$email} produced a blank response from SqualoMail");
+                squalomail_error('order_submit.failure', "$call :: #{$order->getId()} :: email: {$email} produced a blank response from Squalo");
                 return $api_response;
             }
 
@@ -336,7 +336,7 @@ class SqualoMail_WooCommerce_Single_Order extends Squalomail_Woocommerce_Job
             squalomail_log('order_submit.success', $log);
 
             if ($this->is_full_sync && $new_order) {
-                // if the customer has a flag to double opt in - we need to push this data over to SqualoMail as pending
+                // if the customer has a flag to double opt in - we need to push this data over to Squalo as pending
                 //TODO: RYAN: this is the only place getOriginalSubscriberStatus() is called, but the iterate method uses another way. 
                 // squalomail_update_member_with_double_opt_in($order, ($should_auto_subscribe || $status));
                 squalomail_update_member_with_double_opt_in($order, ($should_auto_subscribe || $order->getCustomer()->getOriginalSubscriberStatus()));
@@ -423,7 +423,7 @@ class SqualoMail_WooCommerce_Single_Order extends Squalomail_Woocommerce_Job
             return true;
         }
 
-        // make sure we can submit this order to SqualoMail or skip it.
+        // make sure we can submit this order to Squalo or skip it.
         if (squalomail_email_is_amazon($email)) {
             squalomail_log('validation.amazon', "Order #{$order_id} was placed through Amazon. Skipping!");
             return true;

@@ -89,7 +89,7 @@ class SqualoMail_WooCommerce_Activator {
 
 		dbDelta( $sql );
 
-		// set the Squalomail woocommerce version at the time of install
+		// set the Squalo woocommerce version at the time of install
 		update_site_option('squalomail_woocommerce_version', squalomail_environment_variables()->version);
 	}
 
