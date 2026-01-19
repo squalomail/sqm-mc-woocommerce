@@ -109,7 +109,7 @@ class SqualoMail_WooCommerce_Cart_Update extends Squalomail_Woocommerce_Job
         try {
 
             if (!squalomail_is_configured() || !($api = squalomail_get_api())) {
-                squalomail_debug(get_called_class(), 'Squalomail is not configured properly');
+                squalomail_debug(get_called_class(), 'Squalo is not configured properly');
                 return false;
             }
 

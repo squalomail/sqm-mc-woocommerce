@@ -234,7 +234,7 @@
 
 		});
 
-		// Squalomail OAuth connection (tab "connect")
+		// Squalo OAuth connection (tab "connect")
 		$('#squalomail_woocommerce_options #squalomail-oauth-connect').click(function(e){
 			$('#squalomail-oauth-error').hide();
 			$('#squalomail-oauth-waiting').hide();

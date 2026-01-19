@@ -13,11 +13,11 @@
  * @package           SqualoMail_WooCommerce
  *
  * @wordpress-plugin
- * Plugin Name:       Squalomail for WooCommerce
+ * Plugin Name:       Squalo for WooCommerce
  * Plugin URI:        https://squalomail.com/connect-your-store/
- * Description:       Connects WooCommerce to Squalomail to sync your store data, send targeted campaigns to your customers, and sell more stuff. 
- * Version:           2.5.3
- * Author:            Squalomail
+ * Description:       Connects WooCommerce to Squalo to sync your store data, send targeted campaigns to your customers, and sell more stuff.
+ * Version:           2.5.4
+ * Author:            Squalo
  * Author URI:        https://squalomail.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt

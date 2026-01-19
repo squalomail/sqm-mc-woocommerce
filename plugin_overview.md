@@ -1,12 +1,12 @@
-# Squalomail for Woocommerce Integration
+# Squalo for Woocommerce Integration
 
-In this article, you’ll learn how to connect Squalomail for WooCommerce.
+In this article, you’ll learn how to connect Squalo for WooCommerce.
 
 ## Before You Start
 
 **Here are some things to know before you begin this process.**
 
-- For the most up-to-date install instructions, read [Connect or Disconnect Squalomail for WooCommerce](http://kb.squalomail.com/integrations/e-commerce/connect-or-disconnect-squalomail-for-woocommerce). 
+- For the most up-to-date install instructions, read [Connect or Disconnect Squalo for WooCommerce](http://kb.squalomail.com/integrations/e-commerce/connect-or-disconnect-squalomail-for-woocommerce). 
 
 - This plugin requires you to have the latest [WooCommerce plugin](https://wordpress.org/plugins/woocommerce) already installed and activated in WordPress. 
 
@@ -16,23 +16,23 @@ In this article, you’ll learn how to connect Squalomail for WooCommerce.
 
 - We recommend you use this plugin in a staging environment before installing it on production servers. 
 
-- Squalomail for WooCommerce syncs the customer’s first name, last name, email address, and orders.
+- Squalo for WooCommerce syncs the customer’s first name, last name, email address, and orders.
 
 - WooCommerce customers who haven't signed up for marketing emails will appear in the Transactional portion of your list, and cannot be exported.
 
 ## A Note for Current WooCommerce Integration Users
 
-This plugin supports our most powerful API 3.0 features, and is intended for users who have not yet integrated their WooCommerce stores with Squalomail. If your WooCommerce store is already integrated with Squalomail via an integration that runs on an older version of Squalomail’s API, consider your current sales volume before you make any changes that might disrupt business.
+This plugin supports our most powerful API 3.0 features, and is intended for users who have not yet integrated their WooCommerce stores with Squalo. If your WooCommerce store is already integrated with Squalo via an integration that runs on an older version of Squalo’s API, consider your current sales volume before you make any changes that might disrupt business.
 
-You can run this new integration at the same time as your current WooCommerce integration for Squalomail. However, data from the older integration will display separately in subscriber profiles, and can’t be used with e-commerce features that require API 3.0.
+You can run this new integration at the same time as your current WooCommerce integration for Squalo. However, data from the older integration will display separately in subscriber profiles, and can’t be used with e-commerce features that require API 3.0.
 
 ## Task Roadmap
 **Here’s a brief overview of this multi-step process.**
 
 - Install the plugin on your WordPress Admin site.
-- Connect the plugin with your Squalomail API Key.
+- Connect the plugin with your Squalo API Key.
 - Configure your list settings to complete the data sync process.
-- Troubleshoot any sync or data feed issues by sharing logs with Squalomail support.
+- Troubleshoot any sync or data feed issues by sharing logs with Squalo support.
 
 ## Install the Plugin
 **To install the plugin, follow these steps.**
@@ -57,9 +57,9 @@ You can run this new integration at the same time as your current WooCommerce in
 After you activate the plugin, you’ll be taken to the **Settings** page, where you will add your API key and configure your list settings.
 
 ## Configure and Sync
-**To configure your Squalomail settings for WooCommerce customers and sync them to Squalomail, follow these steps.**
+**To configure your Squalo settings for WooCommerce customers and sync them to Squalo, follow these steps.**
 
-1) On the **Connect** tab, paste your Squalomail API key into the field, choose whether or not you want to send debugging logs to Squalomail, and click **Save all changes**. To learn how to generate a Squalomail API Key, read [About API Keys](http://kb.squalomail.com/integrations/api-integrations/about-api-keys).
+1) On the **Connect** tab, paste your Squalo API key into the field, choose whether or not you want to send debugging logs to Squalo, and click **Save all changes**. To learn how to generate a Squalo API Key, read [About API Keys](http://kb.squalomail.com/integrations/api-integrations/about-api-keys).
 
 ![API key](https://cloud.githubusercontent.com/assets/19805049/18877771/3fca90e8-849c-11e6-9e3a-161a7b3936dd.png)
 
@@ -79,20 +79,20 @@ After you activate the plugin, you’ll be taken to the **Settings** page, where
 
 ![Save all changes](https://cloud.githubusercontent.com/assets/19805049/18877772/3fd24162-849c-11e6-8442-79ec4550b8ac.png)
 
-All set! When you click **Save all changes**, we’ll start syncing your WooCommerce customers to Squalomail. To view progress, check the **Sync Status** tab. 
+All set! When you click **Save all changes**, we’ll start syncing your WooCommerce customers to Squalo. To view progress, check the **Sync Status** tab. 
 
-If you have no audiences in your Squalomail account, you will be given the option to create a new list on the **List Defaults** tab. To create a new list, set your list defaults, and click **Save all Changes** when you’re done. We’ll create a Squalomail list for you, and begin the data sync.
+If you have no audiences in your Squalo account, you will be given the option to create a new list on the **List Defaults** tab. To create a new list, set your list defaults, and click **Save all Changes** when you’re done. We’ll create a Squalo list for you, and begin the data sync.
 
 ![List Defaults tab](https://cloud.githubusercontent.com/assets/19805049/18956260/cffd3926-8628-11e6-9c68-9fe3c964c75c.png)
 
 ## Next Steps
 After you connect, you can do a lot with the the data you collect, like build segments, send Automation workflows, track purchases, and view results.
 
-Find out everything Squalomail has to offer in our article, [How to Use Squalomail for E-Commerce](http://kb.squalomail.com/integrations/e-commerce/how-to-use-squalomail-for-e-commerce).
+Find out everything Squalo has to offer in our article, [How to Use Squalo for E-Commerce](http://kb.squalomail.com/integrations/e-commerce/how-to-use-squalomail-for-e-commerce).
 
 # Deactivate or Delete the Plugin
-When you deactivate Squalomail for WooCommerce, it stops the sync but doesn’t remove the plugin. You can always re-activate the sync, which will backfill data at a later point in time.
-To deactivate Squalomail for WooCommerce, follow these steps.
+When you deactivate Squalo for WooCommerce, it stops the sync but doesn’t remove the plugin. You can always re-activate the sync, which will backfill data at a later point in time.
+To deactivate Squalo for WooCommerce, follow these steps.
 
 1) Log in to your WordPress admin panel. 
 
@@ -100,7 +100,7 @@ To deactivate Squalomail for WooCommerce, follow these steps.
 
 ![Installed Plugins](https://cloud.githubusercontent.com/assets/6547700/18677993/a76542ee-7f28-11e6-99dd-cfd6c1f5c24a.png)
 
-3) Click the box next to the Squalomail for WooCommerce plugin, and click **Deactivate**.	
+3) Click the box next to the Squalo for WooCommerce plugin, and click **Deactivate**.	
 
 ![Deactivate](https://cloud.githubusercontent.com/assets/6547700/18677992/a762b844-7f28-11e6-9679-8d6c6a1d731d.png)
 

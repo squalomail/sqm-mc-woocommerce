@@ -203,11 +203,8 @@ if (($squalomail_api = squalomail_get_api()) && ($store = $squalomail_api->getSt
         <div class="content ">
             <h3 style="padding-top: 1em;"><?php esc_html_e('More Information', 'squalomail-for-woocommerce'); ?></h3>
             <ul>
-                <li><?= sprintf(/* translators: %s - Plugin review URL. */wp_kses( __( 'Is this plugin helping your e-commerce business? <a href=%s target=_blank>Please leave us a ★★★★★ review!</a>.', 'squalomail-for-woocommerce' ), array(  'a' => array( 'href' => array(), 'target'=> '_blank' ) ) ), esc_url( 'https://wordpress.org/support/plugin/squalomail-for-woocommerce/reviews/' ) );?></li>
-                <li><?= sprintf(/* translators: Placeholders %1$s - plugin wiki CLI URL, %2$s - plugin wiki WP caching issues url */ wp_kses( __( 'Have a larger store or having issues syncing? Consider using <a href=%1$s target=_blank>WP-CLI</a> or browse documentation around common <a href=%2$s target=_blank>caching problems</a>.', 'squalomail-for-woocommerce' ), array(  'a' => array( 'href' => array(), 'target'=> '_blank' ) ) ), esc_url( 'https://github.com/squalomail/sqm-woocommerce/wiki/Advanced-Queue-Setup-In-CLI-mode' ), esc_url( 'https://github.com/squalomail/sqm-woocommerce/wiki/Using-Caches' ) );?></li>
                 <li><?= esc_html__('Order and customer information will not sync if they contain an Amazon or generic email address.', 'squalomail-for-woocommerce');?></li>
-                <li><?= sprintf(/* translators: Placeholders %1$s - Squalomail Support URL, %2$s - link element id, %3$s - popup element id  */wp_kses( __( 'Need help? Visit <a href=%1$s target=_blank>Squalomail support</a> or <a id=%2$s href=%3$s>send us an email.</a> ', 'squalomail-for-woocommerce' ), array(  'a' => array( 'href' => array(), 'id' => array(),  'target'=> '_blank' ) ) ), esc_url( 'https://us1.admin.squalomail.com/support?support_key=woo_forum' ), 'sqm-woocommerce-support-form-button', '#sqm-woocommerce-support-form' );?></li>
-                <li><?= sprintf(/* translators: %s - Squalomail Privacy Policy URL. */wp_kses( __( 'By using this plugin, Squalomail will process customer information in accordance with their <a href=%s target=_blank>Privacy Policy</a>.', 'squalomail-for-woocommerce' ), array(  'a' => array( 'href' => array(), 'target'=> '_blank' ) ) ), esc_url( 'https://squalomail.com/legal/privacy/' ) );?></li>
+                <li><?= sprintf(/* translators: %s - Squalo Privacy Policy URL. */wp_kses( __( 'By using this plugin, Squalo will process customer information in accordance with their <a href=%s target=_blank>Privacy Policy</a>.', 'squalomail-for-woocommerce' ), array(  'a' => array( 'href' => array(), 'target'=> '_blank' ) ) ), esc_url( 'https://www.squalo.si/lastnosti/pogoji-poslovanja/' ) );?></li>
             </ul>
         </div>
     </div>
@@ -310,7 +307,7 @@ if (($squalomail_api = squalomail_get_api()) && ($store = $squalomail_api->getSt
             </fieldset>
         </div>
         <div class="modal-footer">
-            ©2001–<?= date('Y') ?> All Rights Reserved. Squalomail® is a registered trademark of The Rocket Science Group. Cookie Preferences, Privacy, and Terms.
+            ©2001–<?= date('Y') ?> All Rights Reserved. Squalo® is a registered trademark of The Rocket Science Group. Cookie Preferences, Privacy, and Terms.
         </div>
 
     </div>

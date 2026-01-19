@@ -257,7 +257,7 @@ class SqualoMail_WooCommerce
             $this->loader->add_action('villatheme_support_woo-multi-currency', $plugin_admin, 'squalomail_update_woo_settings');
         }
 
-        // Squalomail oAuth
+        // Squalo oAuth
         $this->loader->add_action( 'wp_ajax_squalomail_woocommerce_oauth_start', $plugin_admin, 'squalomail_woocommerce_ajax_oauth_start' );
         $this->loader->add_action( 'wp_ajax_squalomail_woocommerce_oauth_status', $plugin_admin, 'squalomail_woocommerce_ajax_oauth_status' );
         $this->loader->add_action( 'wp_ajax_squalomail_woocommerce_oauth_finish', $plugin_admin, 'squalomail_woocommerce_ajax_oauth_finish' );

@@ -2,7 +2,7 @@
     <input type="hidden" name="squalomail_active_settings_tab" value="api_key"/>
 
     <legend class="screen-reader-text">
-        <span><?php esc_html_e('Connect your store to Squalomail', 'squalomail-for-woocommerce');?></span>
+        <span><?php esc_html_e('Connect your store to Squalo', 'squalomail-for-woocommerce');?></span>
     </legend>
 
     <input placeholder="API key" style="display: block; width: 300px; max-width: 100%; margin-bottom: 15px;" type="text" id="<?php echo $this->plugin_name; ?>-squalomail-api-key" name="<?php echo $this->plugin_name; ?>[squalomail_api_key]" value="<?php echo isset($options['squalomail_api_key']) ? $options['squalomail_api_key'] : '' ?>" required/>
@@ -10,9 +10,9 @@
     <a id="squalomail-oauth-connect" class="button button-primary tab-content-submit oauth-connect"><?php $has_valid_api_key ? esc_html_e('Reconnect account', 'squalomail-for-woocommerce') : esc_html_e('Connect account', 'squalomail-for-woocommerce');?></a>
     
     <?php if ($has_valid_api_key) :?>
-        <p id="squalomail-oauth-api-key-valid"><?php esc_html_e('Already connected. You can reconnect with another Squalomail account if you want.' , 'squalomail-for-woocommerce');?></p>
+        <p id="squalomail-oauth-api-key-valid"><?php esc_html_e('Already connected. You can reconnect with another Squalo account if you want.' , 'squalomail-for-woocommerce');?></p>
     <?php endif;?>
-    <p id="squalomail-oauth-waiting" class="oauth-description"><?php esc_html_e('Connecting. A new window will open with Squalomail\'s OAuth service. Please log-in and we will take care of the rest.' , 'squalomail-for-woocommerce');?></p>
+    <p id="squalomail-oauth-waiting" class="oauth-description"><?php esc_html_e('Connecting. A new window will open with Squalo\'s OAuth service. Please log-in and we will take care of the rest.' , 'squalomail-for-woocommerce');?></p>
     <p id="squalomail-oauth-error" class="oauth-description"><?php esc_html_e('Error, can\'t login.' , 'squalomail-for-woocommerce');?></p>
     <p id="squalomail-oauth-connecting" class="oauth-description"><?php esc_html_e('Connection in progress' , 'squalomail-for-woocommerce');?><span class="spinner" style="visibility:visible; margin: 0 10px;"></span></p>
     <p id="squalomail-oauth-connected" class="oauth-description "><?php esc_html_e('Connected! Please wait while loading next step', 'squalomail-for-woocommerce');?></p>
@@ -179,7 +179,7 @@
                                     'br' => array()
                                 );
                             ?>
-                            <?= sprintf(/* translators: %s - Squalomail legal pages */wp_kses( __( 'By clicking the "Get Started!" button, you are creating a Squalomail account, and you agree to Squalomail\'s <a href=%1$s target=_blank>Terms of Use</a> and <a href=%2$s target=_blank>Privacy Policy</a>.', 'squalomail-for-woocommerce' ), array(  'a' => array( 'href' => array(), 'target'=> '_blank' ) ) ), esc_url( 'https://squalomail.com/legal/terms' ), esc_url( 'https://squalomail.com/legal/privacy' ) );?>
+                            <?= sprintf(/* translators: %s - Squalo legal pages */wp_kses( __( 'By clicking the "Get Started!" button, you are creating a Squalo account, and you agree to Squalo\'s <a href=%1$s target=_blank>Terms of Use</a> and <a href=%2$s target=_blank>Privacy Policy</a>.', 'squalomail-for-woocommerce' ), array(  'a' => array( 'href' => array(), 'target'=> '_blank' ) ) ), esc_url( 'https://squalomail.com/legal/terms' ), esc_url( 'https://squalomail.com/legal/privacy' ) );?>
                                 
                         </p>
                     </div>
@@ -209,7 +209,7 @@
             
 
             <div class="modal-footer">
-                ©2001–<?= date('Y') ?> All Rights Reserved. Squalomail® is a registered trademark of The Rocket Science Group. Cookie Preferences, Privacy, and Terms.
+                ©2001–<?= date('Y') ?> All Rights Reserved. Squalo® is a registered trademark of The Rocket Science Group. Cookie Preferences, Privacy, and Terms.
             </div>
 
         </div>

@@ -85,7 +85,7 @@ class SqualoMail_WooCommerce_Product_Category extends Squalomail_Woocommerce_Job
         }
 
         if (!squalomail_is_configured()) {
-            squalomail_debug(get_called_class(), 'Squalomail is not configured properly');
+            squalomail_debug(get_called_class(), 'Squalo is not configured properly');
             return false;
         }
 
@@ -98,7 +98,7 @@ class SqualoMail_WooCommerce_Product_Category extends Squalomail_Woocommerce_Job
             }
 
             try {
-                // pull the category from Squalomail first to see what method we need to call next.
+                // pull the category from Squalo first to see what method we need to call next.
                 $squalomail_category = $this->api()->getStoreCategory($this->store_id, $this->id, true);
             } catch (\Exception $e) {
                 if ($e instanceof SqualoMail_WooCommerce_RateLimitError) {
@@ -110,12 +110,12 @@ class SqualoMail_WooCommerce_Product_Category extends Squalomail_Woocommerce_Job
             // depending on if it's existing or not - we change the method call
             $method = $squalomail_category ? 'updateStoreCategory' : 'addStoreCategory';
 
-            // if the mode set is "create" and the category is in Squalomail - just return the category.
+            // if the mode set is "create" and the category is in Squalo - just return the category.
             if ($this->mode === 'create' && !empty($squalomail_category)) {
                 return $squalomail_category;
             }
 
-            // if the mode is set to "update" and the category is not currently in Squalomail - skip it.
+            // if the mode is set to "update" and the category is not currently in Squalo - skip it.
             if ($this->mode === 'update' && empty($squalomail_category)) {
                 return false;
             }
@@ -175,7 +175,7 @@ class SqualoMail_WooCommerce_Product_Category extends Squalomail_Woocommerce_Job
                 return $this->api = new SqualoMail_WooCommerce_SqualoMailApi($options['squalomail_api_key']);
             }
 
-            throw new \RuntimeException('The SqualoMail API is not currently configured!');
+            throw new \RuntimeException('The Squalo API is not currently configured!');
         }
 
         return $this->api;

@@ -111,7 +111,7 @@ class SqualoMail_WooCommerce_Transform_Orders
         $status = SqualoMail_WooCommerce_HPOS::normalizeOrderStatus($woo->get_status());
         $order->setOriginalWooStatus(($status));
 
-        // if the order is "on-hold" status, and is not currently in Squalomail, we need to ignore it
+        // if the order is "on-hold" status, and is not currently in Squalo, we need to ignore it
         // because the payment gateways are putting this on hold while they navigate to the payment processor
         // and they technically haven't paid yet.
         if (in_array($status, array('on-hold', 'failed'))) {
@@ -237,7 +237,7 @@ class SqualoMail_WooCommerce_Transform_Orders
     {
         $customer = new SqualoMail_WooCommerce_Customer();
 
-        // attach the wordpress user to the Squalomail customer object.
+        // attach the wordpress user to the Squalo customer object.
         $customer->setWordpressUser($order->get_user());
 
         $customer->setId(squalomail_hash_trim_lower($order->get_billing_email()));
@@ -468,8 +468,8 @@ class SqualoMail_WooCommerce_Transform_Orders
     }
 
     /**
-     * "Pending payment" in the UI fires the order confirmation email SqualoMail
-     * "Completed” in the UI fires the SqualoMail Order Invoice
+     * "Pending payment" in the UI fires the order confirmation email Squalo
+     * "Completed” in the UI fires the Squalo Order Invoice
      * "Cancelled" does what we think it does
      *
      * @return array

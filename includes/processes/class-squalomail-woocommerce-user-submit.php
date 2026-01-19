@@ -65,7 +65,7 @@ class SqualoMail_WooCommerce_User_Submit extends Squalomail_Woocommerce_Job
     public function handle()
     {
         if (!squalomail_is_configured()) {
-            squalomail_debug(get_called_class(), 'Squalomail is not configured properly');
+            squalomail_debug(get_called_class(), 'Squalo is not configured properly');
             static::$handling_for = null;
             return false;
         }
