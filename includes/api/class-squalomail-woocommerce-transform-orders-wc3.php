@@ -411,11 +411,7 @@ class SqualoMail_WooCommerce_Transform_Orders
             'fields' => 'ids'
         );
 
-        $orders = get_posts($params);
-        if (empty($orders)) {
-            sleep(2);
-            $orders = get_posts($params);
-        }
+        $orders = SqualoMail_WooCommerce_HPOS::get_orders( $params );
 
         return empty($orders) ? false : $orders;
     }

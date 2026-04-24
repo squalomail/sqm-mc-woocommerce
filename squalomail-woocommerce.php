@@ -16,7 +16,7 @@
  * Plugin Name:       Squalo for WooCommerce
  * Plugin URI:        https://squalomail.com/connect-your-store/
  * Description:       Connects WooCommerce to Squalo to sync your store data, send targeted campaigns to your customers, and sell more stuff.
- * Version:           2.5.4
+ * Version:           2.5.5
  * Author:            Squalo
  * Author URI:        https://squalomail.com
  * License:           GPL-2.0+

@@ -735,6 +735,13 @@ function squalomail_get_product_count() {
  * @return int
  */
 function squalomail_get_order_count() {
+    if(SqualoMail_WooCommerce_HPOS::enabled()) {
+        foreach (wc_get_order_statuses() as $status_slug => $status_name) {
+            $order_count += wc_orders_count($status_slug);
+        }
+        return $order_count;
+    }
+
     $posts = squalomail_count_posts('shop_order');
     unset($posts['auto-draft'], $posts['trash']);
     $total = 0;

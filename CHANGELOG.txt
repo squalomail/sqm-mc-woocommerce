@@ -1,4 +1,6 @@
 == Changelog ==
+= 2.5.5 =
+* fix for full syncing orders
 = 2.5.4 =
 * renamed Squalomail to Squalo throughout plugin
 * updated readme and documentation links
